@@ -1,0 +1,10 @@
+body {
+  background-color: grey; }
+
+.container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  margin-top: 8%;
+  background: #8e4e4e; }
