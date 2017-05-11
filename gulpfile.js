@@ -1,11 +1,3 @@
-/**
- * Purpose of a gulp file is to describe 'tasks'
- * that convert from 'developer mode' to 'productioin mode'. Things
- * like converting Sass => CSS, removing comments, merging
- * files, etc
-  */
-
-  // Step 1: import gulp
   const gulp = require('gulp');
   const sass = require('gulp-sass');
   const browser = require('gulp-browser');
