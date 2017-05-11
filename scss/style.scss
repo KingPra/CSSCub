@@ -1,0 +1,155 @@
+body {
+    background-color: grey;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  display: block;
+  margin: auto;
+  margin-top: 8%;
+  background: #808489;
+  color: #fff;
+}
+
+.head {
+  position: absolute;
+  width: 50%;
+  height: 63%;
+  left: 25%;
+  top: 20%;
+  border-radius: 50%;
+  background: #5e2424;
+}
+
+.head_copy {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #5e2424;
+  z-index: 2;
+}
+
+.ear_right {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: -21%;
+  top: -3%;
+  border-radius: 50%;
+  background: #5e2424;
+  z-index: 1;
+}
+
+.ear_left {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  right: -21%;
+  top: -3%;
+  border-radius: 50%;
+  background: #5e2424;
+  z-index: 1;
+}
+
+.ear_inner {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  right: 10%;
+  top: 16%;
+  border-radius: 50%;
+  background: #381111;
+  z-index: 1;
+}
+
+.eye_right {
+  position: absolute;
+  width: 53%;
+  height: 40%;
+  left: 22%;
+  top: 14%;
+  border-radius: 50%;
+  background: #000;
+  z-index: 3;
+}
+
+.eye_left {
+  position: absolute;
+  width: 53%;
+  height: 40%;
+  right: 22%;
+  top: 14%;
+  border-radius: 50%;
+  background: #000;
+  z-index: 3;
+}
+
+.eye_pupil {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 31%;
+  background: #000;
+  z-index: 3;
+}
+
+.shade {
+  position: absolute;
+  width: 65%;
+  height: 29%;
+  top: 26%;
+  left: 17%;
+  background: #5e2424;
+  z-index: 3;
+  -webkit-clip-path: polygon(0 0, 49% 12%, 100% 0);
+  clip-path: polygon(0 0, 49% 12%, 100% 0);
+}
+
+.shade_rectangle {
+  position: absolute;
+  width: 56%;
+  height: 13%;
+  height: 13%;
+  top: 13.5%;
+  left: 20%;
+  background: #5e2424;
+  z-index: 3;
+}
+
+.mouth {
+  position: absolute;
+  width: 70%;
+  height: 60%;
+  left: 16%;
+  bottom: 1%;
+  border-radius: 50%;
+  background: #dbb592;
+  z-index: 3;
+}
+
+.mouth_inner {
+  position: absolute;
+  width: 30%;
+  height: 6%;
+  bottom: 10%;
+  left: 20%;
+  border-radius: 8px;
+  background: #000;
+  z-index: 3;
+}
+
+.nose {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  top: 26%;
+  left: 34%;
+  border-radius: 55%;
+  background: #000;
+  z-index: 3;
+  -webkit-clip-path: circle(43% at 50% 10%);
+  clip-path: circle(43% at 50% 10%);
+}
