@@ -33,10 +33,10 @@ body {
 
 .ear_left {
   position: absolute;
-  width: 60%;
-  height: 60%;
-  top: -7%;
-  left: -18%;
+  width: 30%;
+  height: 30%;
+  top: 1%;
+  left: -8%;
   border: 6px solid #000;
   border-radius: 50%;
   background: #7a5430;
@@ -45,10 +45,10 @@ body {
 
 .ear_right {
   position: absolute;
-  width: 60%;
-  height: 60%;
-  top: -7%;
-  right: -18%;
+  width: 30%;
+  height: 30%;
+  top: 1%;
+  right: -8%;
   border: 6px solid #000;
   border-radius: 50%;
   background: #7a5430;
@@ -70,7 +70,7 @@ body {
   position: absolute;
   width: 50%;
   height: 50%;
-  top: 10%;
+  top: 23%;
   left: 10%;
   border-radius: 50%;
   background: #fff;
@@ -81,7 +81,7 @@ body {
   position: absolute;
   width: 50%;
   height: 50%;
-  top: 10%;
+  top: 23%;
   right: 10%;
   border-radius: 50%;
   background: #fff;
@@ -99,22 +99,11 @@ body {
   z-index: 2;
 }
 
-.jaw {
-  position: absolute;
-  width: 50%;
-  height: 50%;
-  bottom: 2%;
-  left: 24%;
-  border-radius: 50%;
-  background: #dbb592;
-  z-index: 3;
-}
-
 .nose {
   position: absolute;
   width: 20%;
   height: 20%;
-  top: 6%;
+  bottom: 16%;
   left: 40%;
   background: #000;
   border-radius: 60%;
@@ -123,13 +112,36 @@ body {
   z-index: 2;
 }
 
+.chin {
+  position: absolute;
+  width: 26%;
+  height: 22%;
+  bottom: -2%;
+  right: 43%;
+  background: #7a5430;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.chin_copy {
+  position: absolute;
+  width: 26%;
+  height: 22%;
+  bottom: -3%;
+  right: 42%;
+  background: #7a5430;
+  border: 6px solid #000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
 .mouth {
   position: absolute;
-  width: 25%;
-  height: 4%;
-  bottom: 10%;
-  right: 18%;
+  width: 80%;
+  height: 80%;
+  bottom: 4%;
+  left: 8%;
   background: #000;
-  border-radius: 27px;
+  border-radius: 50%;
   z-index: 2;
 }
